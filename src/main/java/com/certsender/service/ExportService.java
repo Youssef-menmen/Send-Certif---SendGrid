@@ -46,7 +46,7 @@ public class ExportService {
 
             // ── Style entête : fond bleu foncé, texte blanc, gras ──
             CellStyle headerStyle = workbook.createCellStyle();
-            headerStyle.setFillForegroundColor(IndexedColors.NAVY.getIndex());
+            headerStyle.setFillForegroundColor(IndexedColors.DARK_BLUE.getIndex());
             headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
             headerStyle.setBorderBottom(BorderStyle.THIN);
             Font headerFont = workbook.createFont();
