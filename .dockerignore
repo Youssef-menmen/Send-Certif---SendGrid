@@ -1,0 +1,16 @@
+# Fichiers à exclure du contexte Docker
+# (accélère le build et évite de copier des fichiers inutiles)
+
+target/
+*.class
+*.jar
+
+.git/
+.gitignore
+
+*.md
+
+# IDE
+.idea/
+.vscode/
+*.iml
